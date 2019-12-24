@@ -1,0 +1,298 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <title>Banking and System</title>
+
+    <!-- css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <!--Header Area-->
+    <header class="header-area fixed-header transparent-bg">
+        <nav class="navbar navbar-expand-lg main-menu">
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <h2>Nexus Bank</h2></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu-toggle"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" role="button" aria-expanded="false">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" role="button" aria-expanded="false">Loans</a>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--/Header Area-->
+
+    <!--Hero Area-->
+    <section class="hero-section">
+        <div class="hero-area-2">
+            <div class="single-hero gradient-overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="hero-sub">
+                                <div class="table-cell">
+                                    <div class="hero-left hero-shade">
+                                        <h4>Find your best Banking Loan</h4>
+                                        <h1>Banking System</h1>
+                                        <p>Eat imagine you chiefly few end ferrars compass. Be visitor females am ferrars inquiryremark thrown.</p>
+                                        <a href="#" class="bttn-mid btn-emt">Calculate rate</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 centered">
+                            <div class="hero-sub">
+                                <div class="banner-left">
+                                    <img src="http://demo.themeies.com/roysha-html/images/trans-his-2.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Hero Area-->
+
+
+
+<section class="balance-section">
+    <div class="container">
+        <div class="balance-status">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="alert alert-info" role="alert">
+                  <h3>Deposit: <span id="deposit-status">$00</span></h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="alert alert-success" role="alert">
+                  <h3>Withdraw: <span id="withdraw-status">$00</span></h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="alert alert-info" role="alert">
+                  <h3>Balance: <span id="balance-status" >$1240</span></h3>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="balance-transfer mt-2">
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                  <div class="form-group">
+                    <label for="Deposit">Deposit</label>
+                    <input type="text" class="form-control" id="deposit" placeholder="$ Enter Deposit Amount" required>
+                    <small class="info">We'll never share your pin with anyone else.</small>
+                  </div>
+                  <button type="button" class="btn btn-primary" onclick="balance_transfer()">Deposit</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form>
+                  <div class="form-group">
+                    <label for="Withdraw">Withdraw</label>
+                    <input type="text" class="form-control" id="withdraw" placeholder="$ Enter Withdraw Amount" required>
+                    <small class="info">We'll never share your pin with anyone else.</small>
+                  </div>
+                  <button type="button" class="btn btn-primary" onclick="withdraw_bln()">Withdraw</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</section>
+
+
+    <!--services Area-->
+    <section class="services-area section-padding-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 centered wow fadeInUp animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
+                    <div class="section-title">
+                        <h4>Best Loans</h4>
+                        <h2>Our Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">
+                    <div class="single-service-3">
+                        <div class="service-icon">
+                            <i class="flaticon-home"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="">Home Banking</a></h4>
+                            <p>Lose away off why half led have near bed. At engage simple father of period others except</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">
+                    <div class="single-service-3">
+                        <div class="service-icon">
+                            <i class="flaticon-hourglass"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="">Property Banking</a></h4>
+                            <p>Lose away off why half led have near bed. At engage simple father of period others except</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">
+                    <div class="single-service-3">
+                        <div class="service-icon">
+                            <i class="flaticon-help"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="">Personal Banking</a></h4>
+                            <p>Lose away off why half led have near bed. At engage simple father of period others except</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">
+                    <div class="single-service-3">
+                        <div class="service-icon">
+                            <i class="flaticon-puzzle"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="">Education Banking</a></h4>
+                            <p>Lose away off why half led have near bed. At engage simple father of period others except</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">
+                    <div class="single-service-3">
+                        <div class="service-icon">
+                            <i class="flaticon-cursor"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="">Entrepreneur Banking</a></h4>
+                            <p>Lose away off why half led have near bed. At engage simple father of period others except</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">
+                    <div class="single-service-3">
+                        <div class="service-icon">
+                            <i class="flaticon-bookmark"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="">Business Banking</a></h4>
+                            <p>Lose away off why half led have near bed. At engage simple father of period others except</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/services Area-->
+
+    <!-- Cta -->
+    <section class="cta section-padding blue-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col centered cl-white">
+                    <div class="section-title mb-20">
+                        <h2>Are you ready to go?</h2>
+                    </div>
+                    <a href="#" class="bttn-mid btn-emt">Apply online now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Cta -->
+
+    <!--Brands Area-->
+    <section class="section-padding-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 centered">
+                    <div class="section-title">
+                        <h4>Connection</h4>
+                        <h2>Our Partners</h2>
+                    </div>
+                </div>
+            </div>
+                <div class="col-xl-12">
+                    <div class="brands">
+                        <div class="row">
+                            <div class="col-md-3">
+                            <div class="single-brands">
+                                <a href=""><img src="assets/images/brands/1.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="single-brands">
+                                <a href=""><img src="assets/images/brands/2.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="single-brands">
+                                <a href=""><img src="assets/images/brands/3.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="single-brands">
+                                <a href=""><img src="assets/images/brands/4.png" alt=""></a>
+                            </div>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!--/Brands Area-->
+
+    <!--Copyright Area-->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col centered">
+                    <p>Copyright © 2019 All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Copyright Area-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+     <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
